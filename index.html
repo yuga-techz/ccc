@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teciton</title>
+    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="sample.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!--************************************** box************************************-->
+    <div class="wrapper">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!--************************************** nav bar ************************************-->
+    <header>
+        <div class="header-div">
+
+            <h1>Teciton</h1>
+
+
+            <i class="fa-solid fa-bars" id="menu-toggle"></i>
+
+        </div>
+        <nav id="nav-links">
+            <a href="#home" class="nav-link" id="nav-link">Home</a>
+            <a href="#about" class="nav-link" id="nav-link">About</a>
+            <a href="#service" class="nav-link" id="nav-link">Events</a>
+            <a href="#portfolio" class="nav-link" id="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link" id="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--************************************** HOME PAGE************************************-->
+
+        <section id="home" class=" home active-section">
+
+
+
+            
+
+            <div class="home-intro animate move-right">
+
+                <div class="space"></div>
+                <div>
+                    <h3><span>National Level Technical Symposium</span></h3>
+                  <br>
+                    <p>Department of Computer Applications</p>
+                    <p><span>Reveal the spark in you</span></p>
+                    <br>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSewaHVudJSyu18n3hBZeq0MzAPV1CLwXLSS9y7_Zye5aQoXXQ/viewform?usp=sf_link" target="_blank">
+                        <button type="button" class="btn-cv-dn">Register</button>
+                    </a>
+                </div>
+            </div>
+           
+            <div class="home-img">
+               
+                <div class="img-space"></div>
+                <div>
+                    <h1 class="vestac">VESTAC ASSOCIATION</h1>
+                </div>
+                <div>
+
+
+                    <img class="profile-img animate move-left" src="assets/teciton.png" alt="my profile pic">
+
+            </div>
+            
+            
+        </section>
+
+
+        <!--************************************** about page ************************************-->
+
+
+        <section id="about" class=" about active-section">
+            <div class="empty">
+                <p>.</p>
+            </div>
+
+
+            <div class="about-div ">
+
+
+                <div class="about-pic animate hide-js ">
+
+                    <img class="about-img" src="assets/about.jpg" alt="my pic">
+                </div>
+                <div class="about-desc animate hide-js ">
+                    <h1>SELF <span>SUMMARY</span></h1>
+                    <br>
+                    <p>An aspiring web developer and UI/UX designer with a passion for creating innovative digital
+                        solutions. Currently pursuing my MCA, I am constantly learning and exploring new technologies to
+                        enhance my skills. My goal is to build user-friendly, visually appealing, and efficient digital
+                        experiences.</p>
+                    <br>
+
+                    <p>I'm excited to apply my knowledge and skills in web development, UI/UX design, and software
+                        development to real-world projects. I am eager to collaborate, share ideas, and learn from
+                        others in the industry. Let's connect and explore opportunities to grow and create together!</p>
+                    <br>
+                    <div class="btn">
+
+                        <button type="button" onclick="scrollToSection()" class="btn">Hire Me</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--************************************** service page ************************************-->
+
+        <section id="service" class="active-section">
+            <div class="service">
+                <div class="empty-s"></div>
+
+
+                <div class="service-glass">
+                    <h1 class="hide-pc">MY <span>OFFERINGS</span></h1>
+                    <div class="overall-service animate hide-js ">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>WEB DEVELOPMENT</h2>
+
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-android"></i>
+                            <h2>APP DEVELOPMENT</h2>
+
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-pen-ruler"></i>
+                            <h2>GRAPHICS DESIGN</h2>
+                        </div>
+                        <div>
+                            <a href="#service">UI/UX</a>
+                            <h2>UI/UX DESIGN</h2>
+                        </div>
+
+
+                    </div>
+                    <div class="glasses">
+                        <h1 class="animate scale-out hide-ph">MY <span>OFFERINGS</span></h1>
+                        <div class="glassdiv animate move-up">
+                            <div class="glass-1 glass shake ">
+
+                                <h2>WEB DEVELOPMENT</h2>
+                                <p>Crafting responsive, user-friendly websites that drive engagement and conversion.
+                                    From concept to launch, I deliver modern, mobile-first designs that showcase your
+                                    brand's unique story.</p>
+                            </div>
+                            <div class="glass-2 glass shake">
+
+                                <h2>APP DEVELOPMENT</h2>
+                                <p>Designing intuitive, visually stunning mobile apps that delight users. My expertise
+                                    spans iOS and Android, with a focus on usability, performance, and seamless user
+                                    experiences.</p>
+                            </div>
+
+                            <div class="glass-3 glass shake">
+
+                                <h2>GRAPHICS DESIGN</h2>
+                                <p>Creating compelling visual identities and graphics that captivate audiences. From
+                                    logos to brochures, I deliver high-quality designs that reflect your brand's
+                                    personality and values.</p>
+                            </div>
+                            <div class="glass-4 glass shake">
+
+                                <h2>UI/UX DESIGN</h2>
+                                <p>Designing user-centered interfaces that simplify complex interactions. My UI/UX
+                                    expertise ensures seamless experiences across web and mobile applications, driving
+                                    user satisfaction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--*************************portfoilo**************************-->
+
+        <section id="portfolio" class="active-section">
+
+            <div class="portfolio">
+                <div class="space2"></div>
+
+                <h1 class="animate scale-out">ALL <span>PROJECTS</span></h1>
+                <div class="projects-container">
+                    <div class="card ">
+                        <div class="ui inner animate move-right">
+                            <div class="front">
+
+                                <img src="assets/uiux.png" alt="ui/ux projects demo">
+
+                                <h2>UI/UX PROJECT</h2>
+                                <p>Portfolio UI/UX Prototype</p>
+                                <p style="opacity: 0;">.</p>
+
+
+                            </div>
+                            <div class="back">
+
+                                <p class="backhead">Portfolio UI/UX Prototype</p>
+                                <p class="backpara">In this project, I designed a UI/UX prototype for my own portfolio
+                                    website using
+                                    Figma.
+                                    My goal was to create a visually appealing and user-friendly interface that
+                                    effectively
+                                    showcases my design work and skills.
+                                </p>
+                                <a href="https://www.figma.com/proto/WgUPZd2MMRg8l1a1DlqRYH/Untitled?t=vEVraDdIjGtRRdBm-1"
+                                    target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="web inner animate scale-out">
+                            <div class="front">
+                                <img src="assets/web1.png" alt="web projects demo">
+                                <h2>WEBSITE</h2>
+
+                                <p>1. Portfolio Website</p>
+                                <p>2. Pizza Hunter Website</p>
+
+
+                            </div>
+                            <div class="back">
+
+
+
+                                <p class="backhead">Portfolio Website</p>
+                                <p class="backpara">
+
+                                    I developed a portfolio website using HTML, CSS, and JavaScript, showcasing my
+                                    design and development skills. This project demonstrates my ability to bring UI/UX
+                                    designs to life as interactive web applications.
+                                </p>
+                                <a href="https://javi2754.github.io/Vignesh-Portfolio/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <p class="backhead">Pizza Hunter Website</p>
+                                <p class="backpara">
+                                    In my first web development project, I created a model website for a fictional pizza
+                                    place, Pizza Hunter. This project allowed me to apply my design and development
+                                    skills, exploring the basics of web development.
+                                </p>
+                                <a href="https://github.com/javi2754/pizza-hunter-website.git" target="_blank"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card ">
+                        <div class="app inner animate move-left">
+                            <div class="front">
+                                <img src="assets/ui1.png" alt="app projects demo">
+                                <h2>SOFTWARE</h2>
+                                <p>A Java-based Chat System</p>
+                                <p style=" opacity: 0;">.</p>
+                            </div>
+                            <div class="back">
+
+                                <p class="backhead">A Java-based Chat System</p>
+                                <p class="backpara">I developed a Java-based chat system with server and client
+                                    applications using Socket programming and Swing for the GUI. It enables real-time
+                                    messaging among multiple users, highlighting my Java network programming and GUI
+                                    development skills.
+
+
+                                </p>
+                                <a href="https://github.com/javi2754/Simple-java-server-client-chat-system.git"
+                                    target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <!--***************************contact********************************-->
+        <section class="active-section" id="contact">
+            <div class="space2"></div>
+            <div class="contact">
+                <div>
+                    <div class="address">
+                        <div class="contact-info animate hide-js">
+                            <h1><span>CONTACT</span> INFO</h1>
+                            <div class="mail">
+                                <i class="fa-regular fa-envelope"></i>
+                                <div>
+                                    <h2>MAIL ME</h2>
+                                    <p>jaijaivignesh7@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="phone">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <h2>CONTACT ME</h2>
+                                    <p>+91 77085 13322</p>
+
+                                </div>
+                            </div>
+                            <div class="location">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                                <div>
+                                    <h2>LOCATION</h2>
+                                    <p>Pallikaranai, Chennai,<br>Tamil nadu, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-info animate hide-js">
+                            <h1><span>SOCIAL</span> INFO</h1>
+                            <div>
+
+                                <a href="https://www.facebook.com/profile.php?id=100027287931090" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/vicky.27._/ " target="_blank"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/vignesh-p-46153a302" target="_blank"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://github.com/javi2754" target="_blank"><i
+                                        class="fa-brands fa-github"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="contact-form ">
+                        <h1 class="animate hide-js">Let's work <span>together.</span></h1>
+                        <form id="contactForm" method="POST">
+                            <input type="hidden" name="access_key" value="52bb675a-4df6-4644-a170-d4f8a5556cf9">
+                            <input type="text" placeholder="Name*" id="name" name="Name" class="name" required>
+
+                            <input type="email" placeholder="Email*" id="email" name="Email" class="email" required>
+
+                            <input type="text" placeholder="Your Subject*" id="subject" class="sub" name="Subject"
+                                required>
+
+                            <textarea placeholder="Your Message" id="message" class="textarea"
+                                name="Message"></textarea>
+                            <input type="submit" value="Send Message" class="submit">
+                            <div id="result"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+    <footer>
+    </footer>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        function isMobileView() {
+            return window.innerWidth <= 768;
+        }
+
+        function myFunction() {
+            if (isMobileView()) {
+                console.log('Do nothing on mobile view');
+                return;
+            }
+
+
+            console.log('Running script on non-mobile view');
+            VanillaTilt.init(document.querySelectorAll(".shake"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1,
+            });
+
+        }
+
+        myFunction();
+
+        window.addEventListener('resize', myFunction);
+    </script>
+
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            document.getElementById('nav-links').classList.toggle('act');
+        });
+
+
+        var navLinks = document.querySelectorAll('#nav-links a');
+
+
+        navLinks.forEach(function (link) {
+            link.addEventListener('click', function () {
+                document.getElementById('nav-links').classList.remove('act');
+            });
+        });
+
+
+        function scrollToSection() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+
+
+
+
+    </script>
+    <script>
+
+        const form = document.getElementById('contactForm');
+        const result = document.getElementById('result');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+            result.innerHTML = "Please wait..."
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+                .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                        result.innerHTML = json.message;
+                    } else {
+                        console.log(response);
+                        result.innerHTML = json.message;
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+                    result.innerHTML = "Something went wrong!";
+                })
+                .then(function () {
+                    form.reset();
+                    setTimeout(() => {
+                        result.style.display = "none";
+                    }, 3000);
+                });
+        });
+
+    </script>
+
+</body>
+
+</html>
